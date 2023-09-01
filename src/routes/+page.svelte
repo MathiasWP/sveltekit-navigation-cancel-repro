@@ -1,5 +1,5 @@
 <script>
-	import { beforeNavigate } from '$app/navigation';
+    import { beforeNavigate } from '$app/navigation';
 
     beforeNavigate((navigation) => {
         navigation.cancel()
